@@ -10,6 +10,10 @@
 
 <img src="./picture/home.jpg" alt="首页" style="zoom:45%;" /><img src="./picture/sort.jpg" alt="分类" style="zoom:45%;" /><img src="./picture/news.jpg" alt="资讯" style="zoom:45%;" /><img src="./picture/me.jpg" alt="我的" style="zoom:45%;" /><img src="./picture/about.jpg" alt="关于" style="zoom:45%;" />
 
+# 项目地址
+ - Gitee：https://gitee.com/nanfangzhe/anpai-wxapp-init
+ - GitHub：https://github.com/nanfangzhe2020/anpai-wxapp-init
+
 # 当前已上线小程序
 《微笑考试》、《宝藏程序》、《工具宝盒》、《阿怼科普》、《阿怼翻译》
 
