@@ -1,0 +1,17 @@
+<l-capsule-bar home-page="/pages/home/home" title="分类检索" title-color="#2c3c65" disable-back="{{true}}" disable-home="{{true}}" hidden-capsule="{{true}}">
+</l-capsule-bar>
+<l-search-bar placeholder="搜索" bg-color="#f6f6f6" shape="circle" front-text="广西" />
+<l-tabs bind:linchange="changeTabs">
+  <l-tabpanel tab="热门" key="one" slot="one">
+    <view class="tab-content">热门</view>
+  </l-tabpanel>
+  <l-tabpanel tab="最新" key="two" slot="two">
+    <view class="tab-content">最新</view>
+  </l-tabpanel>
+  <l-tabpanel tab="关注" key="three" slot="three">
+    <view class="tab-content">关注</view>
+  </l-tabpanel>
+  <l-tabpanel tab="我的" key="four" slot="four">
+    <view class="tab-content">我的</view>
+  </l-tabpanel>
+</l-tabs>

@@ -1,0 +1,22 @@
+<l-capsule-bar home-page="/pages/home/home" title="初始化项目 by 南方者" title-color="#2c3c65" disable-back="{{true}}" disable-home="{{true}}" hidden-capsule="{{true}}">
+</l-capsule-bar>
+<!-- 导图 -->
+<view style="margin: 20rpx;">
+  <swiper class='nfz' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" vertical="{{vertical}}" current="{{current}}">
+    <block wx:for="{{imgUrls}}" wx:key="unique">
+      <swiper-item>
+        <navigator url="{{item.url}}">
+          <image src="{{item.src}}" />
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view wx:for="{{newsList}}" style="margin-bottom: 20rpx;" bindtap="goNew">
+  <l-card type="primary" image="{{item.src}}" title="{{item.title}}">
+    <view class="content">
+      　　{{item.text}}
+    </view>
+  </l-card>
+</view>

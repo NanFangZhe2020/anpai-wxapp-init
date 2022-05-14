@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "l-countdown": "/components/lin-ui/countdown/index",
+    "n-card": "/components/anpai-ui/card/index"
+  }
+}

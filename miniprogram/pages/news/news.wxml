@@ -1,0 +1,31 @@
+<l-capsule-bar home-page="/pages/home/home" title="新闻资讯" title-color="#2c3c65" disable-back="{{true}}" disable-home="{{true}}" hidden-capsule="{{true}}">
+</l-capsule-bar>
+
+<!-- news -->
+<view wx:for="{{newList}}" style="margin: 20rpx 0rpx;">
+  <l-card type="avatar" image="{{item.avatar}}" title="{{item.nickname}}" describe="{{item.time}}">
+    <!-- 此处为content -->
+    <view class="avter-content">
+    <image style="width: 100%; height: 200px;" src="{{item.img}}"></image>
+      {{item.content}}
+    </view>
+    <view class="commom-nfz body-nfz">
+      <view class="commom-nfz">
+        <l-icon name="like" color="#666" size="28" />
+        <view class="number-nfz">{{item.likeSum}}</view>
+      </view>
+      <view class="commom-nfz">
+        <l-icon name="comment" color="#666" size="28" />
+        <view class="number-nfz">{{item.commentSum}}</view>
+      </view>
+    </view>
+    <l-tag shape="circle" bg-color="#f3f3f3" font-color="#3963BC" slot="more" size="large">
+      <view wx:if="{{item.isStar}}">
+        取消关注
+      </view>
+      <view wx:else>
+        + 关注
+      </view>
+    </l-tag>
+  </l-card>
+</view>

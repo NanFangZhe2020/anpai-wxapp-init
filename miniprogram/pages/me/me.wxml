@@ -1,0 +1,38 @@
+<l-capsule-bar home-page="/pages/home/home" title="个人中心" title-color="#2c3c65" disable-back="{{true}}" disable-home="{{true}}" hidden-capsule="{{true}}">
+</l-capsule-bar>
+<view class="head-avatar-nfz" bindtap="goAbout">
+  <l-avatar text="南方者" placement="bottom" src="/images/avatar.png" />
+</view>
+<view style="background-color: rgb(255, 255, 255);">
+  <l-grid row-num="4">
+    <l-grid-item key="one" slot="one">
+      <view class="num">5</view>
+      <view class="text">发表</view>
+    </l-grid-item>
+    <l-grid-item key="two" slot="two">
+      <view class="num">20</view>
+      <view class="text">点赞</view>
+    </l-grid-item>
+    <l-grid-item key="three" slot="three">
+      <view class="num">13</view>
+      <view class="text">评论</view>
+    </l-grid-item>
+    <l-grid-item key="four" slot="four">
+      <view class="num">14</view>
+      <view class="text">收藏</view>
+    </l-grid-item>
+  </l-grid>
+</view>
+<view class="content">
+  <view class="nfz-card" wx:for="{{appList}}" wx:for-item="item" wx:for-index="index" bindtap="goApp" data-id="{{item.appId}}">
+    <n-card type="primary" l-img-class="right-card" position="{{index%2 ==0?'left':'right'}}" image="{{item.imgUrl}}" title="{{item.title}}">
+      <view class="content">
+        {{item.text}}
+      </view>
+    </n-card>
+  </view>
+</view>
+<view style="height: 150rpx;margin:0rpx 40rpx;text-align: center;">
+  <l-list title="关于作者" icon="user" url="../about/about" badge-position="right" />
+  <l-countdown time="2021-05-22 23:47" countdownType="anniversary" />
+</view>

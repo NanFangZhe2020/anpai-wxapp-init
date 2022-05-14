@@ -1,0 +1,15 @@
+/* pages/news/news.wxss */
+.commom-nfz {
+  margin-left: 20rpx;
+  line-height: 40rpx;
+  font-size: 20rpx;
+  display: flex;
+}
+
+.body-nfz {
+  justify-content: flex-end;
+}
+
+.number-nfz {
+  margin-left: 8rpx;
+}

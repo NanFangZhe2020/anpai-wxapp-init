@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/sort/sort",
+    "pages/me/me",
+    "pages/news/news",
+    "pages/home/home",
+    "pages/about/about",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "初始化云开发项目 by 南方者",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#fffff",
+    "selectedColor": "#3963bc",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/icons/_home.png",
+      "selectedIconPath": "images/icons/home.png"
+    }, {
+      "pagePath": "pages/sort/sort",
+      "text": "分类",
+      "iconPath": "images/icons/_sort.png",
+      "selectedIconPath": "images/icons/sort.png"
+    }, {
+      "pagePath": "pages/news/news",
+      "text": "资讯",
+      "iconPath": "images/icons/_news.png",
+      "selectedIconPath": "images/icons/news.png"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/icons/_me.png",
+      "selectedIconPath": "images/icons/me.png"
+    }]
+  },
+  "usingComponents": {
+    "l-card": "/components/lin-ui/card/index",
+    "l-avatar": "/components/lin-ui/avatar/index",
+    "l-icon": "/components/lin-ui/icon/index",
+    "l-tag": "/components/lin-ui/tag/index",
+    "l-grid-item": "/components/lin-ui/grid-item/index",
+    "l-grid": "/components/lin-ui/grid/index",
+    "l-list": "/components/lin-ui/list/index",
+    "l-capsule-bar": "/components/lin-ui/capsule-bar/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

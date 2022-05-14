@@ -1,0 +1,16 @@
+/* pages/home/home.wxss */
+/*导图效果  */
+.nfz {
+  width: 100%;
+  height: 400rpx;
+}
+
+.nfz image {
+  width: 100%;
+  height: 200px;
+}
+
+.content{
+  font-size: small;
+  color: #999;
+}

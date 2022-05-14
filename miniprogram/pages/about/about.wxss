@@ -1,0 +1,102 @@
+.about-card {
+  background: #2c3c65 !important;
+  padding: 50rpx 50rpx 60rpx 50rpx !important;
+  margin-top: 150rpx !important;
+  border-radius: 55rpx !important;
+  box-shadow: 0px 6px 28px 0px #2c3c65 !important;
+}
+
+.content {
+  color: #f3f4f5;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 60rpx;
+}
+
+.content .name {
+  color: #59c7f1;
+  font-size: 60rpx;
+}
+
+.content .slogan {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.content .version {
+  color: #46a5ce;
+  font-size: 23rpx;
+}
+
+.aboutme-container {
+  border-top: 2px #59c7f1 solid;
+  margin-top: 10rpx;
+}
+
+.aboutme-container text {
+  width: 100%;
+  font-size: 27rpx;
+  color: #999;
+}
+
+.l-title-class {
+  padding-left: 0rpx !important;
+  padding-right: 0rpx !important;
+  color: #f3f4f5;
+}
+
+.container {
+  margin-top: 35%;
+}
+
+.l-body-class {
+  padding-left: 0 !important;
+}
+
+.aboutme-detail {
+  display: flex;
+  align-items: center;
+}
+
+.aboutme-detail l-icon {
+  margin-left: 6rpx;
+}
+
+.user-name {
+  color: #59c7f1 !important;
+  font-size: 28rpx !important;
+}
+
+.list {
+  padding: 8rpx 0;
+}
+
+.list-content {
+  font-size: 26rpx;
+  line-height: 26rpx;
+  color: #999;
+}
+
+.list-content text {
+  color: #59c7f1;
+}
+
+
+.about-next {
+  position: absolute;
+  margin: 180rpx 0rpx 0rpx 480rpx;
+  z-index: 2;
+  font-size: 30rpx;
+  transform: skew(-10deg, 0deg);
+  line-height: 40rpx;
+  text-shadow: 0px 0px 20px #59c7f1;
+}
+
+.nfz {
+  color: #ddd;
+}
+ 
+.nfz-item {
+  color: #ddd;
+}

@@ -1,0 +1,46 @@
+<l-capsule-bar home-page="/pages/home/home" title="关于南方者" title-color="#2c3c65" disable-back="{{false}}" disable-home="{{false}}" hidden-capsule="{{false}}">
+</l-capsule-bar>
+<l-popup show="{{showMoney}}" animation="hide">
+  <view>
+    <image show-menu-by-longpress="true" style="width: 600rpx;height: 600rpx;" src="/images/money.jpg" bindtap='imgshows'></image>
+  </view>
+</l-popup>
+<l-card l-class="about-card" type="primary" plaintext="{{true}}">
+  <view class="content">
+    <text class="name">程序名称\n</text>
+    <text class="slogan">程序介绍\nEnglish info.\n</text>
+    <!-- 程序版本 -->
+    <text class="version">v1.x.x</text>
+    <view class="aboutme-container">
+      <l-collapse expand-item-id="{{arr}}">
+        <l-collapse-item title="developer👦" item-id="developer">
+          <view class="aboutme-content">
+            <view class="user-info" bindtap="goAdmin">
+              <l-avatar l-class="user-avatar" l-text-class="user-name" size="100" placement="bottom" text="程序员南方者" src="/images/avatar.png" />
+            </view>
+            <view class="list">
+              <view class="list-content">WeChatID -> <text bindtap='copyWxID' data-text="{{wxid}}">{{wxid}}</text>
+              </view>
+            </view>
+            <view class="list">
+              <view class="list-content">Email -> <text bindtap='copyEmail' data-text="{{email}}">{{email}}</text>
+              </view>
+            </view>
+          </view>
+        </l-collapse-item>
+        <l-collapse-item title="reward💰" item-id="reward">
+          <view class="list" bindtap="goPay">
+            <view class="list-content">输入碎银 -> <text>👍💰💰💰💰💰💰</text>
+            </view>
+          </view>
+          <view class="list" bindtap="goMoney">
+            <view class="list-content">　赞赏码 -> <text>👍💰💰💰💰💰💰</text>
+            </view>
+          </view>
+        </l-collapse-item>
+      </l-collapse>
+    </view>
+    <l-countdown time="2021-05-22 23:47" countdownType="anniversary" />
+  </view>
+</l-card>
+<l-message content="{{content}}" />

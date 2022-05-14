@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "l-collapse": "/components/lin-ui/collapse/index",
+    "l-collapse-item": "/components/lin-ui/collapse-item/index",
+    "l-countdown": "/components/lin-ui/countdown/index",
+    "l-popup": "/components/lin-ui/popup/index",
+    "l-message": "/components/lin-ui/message/index"
+  }
+}
