@@ -6,6 +6,10 @@
  - anpai-ui是基于lin-ui进一步封装，作者自定义的ui库;
  - 当前项目会持续更新，让开发更加便捷！
 
+# 效果展示
+
+<img src="./picture/home.jpg" alt="首页" style="zoom:45%;" /><img src="./picture/sort.jpg" alt="分类" style="zoom:45%;" /><img src="./picture/news.jpg" alt="资讯" style="zoom:45%;" /><img src="./picture/me.jpg" alt="我的" style="zoom:45%;" /><img src="./picture/about.jpg" alt="关于" style="zoom:45%;" />
+
 # 当前已上线小程序
 《微笑考试》、《宝藏程序》、《工具宝盒》、《阿怼科普》、《阿怼翻译》
 
